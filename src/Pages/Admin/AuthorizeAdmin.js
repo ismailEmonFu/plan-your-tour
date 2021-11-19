@@ -41,8 +41,9 @@ const AuthorizeAdmin = () => {
                     <input type="name"
                         className="form-control"
                         id="name"
+
                         aria-describedby="nameHelp"
-                        placeholder="Enter User Name"
+                        placeholder="simpleUser"
                         onChange={handleNameChange}
                     />
                     <small className="form-text text-muted">We'll never share your username with anyone else.</small>
@@ -52,7 +53,8 @@ const AuthorizeAdmin = () => {
                     <input type="password"
                         className="form-control"
                         id="password"
-                        placeholder="Password"
+
+                        placeholder="878388"
                         onChange={handlePasswordChange}
                     />
                 </div>

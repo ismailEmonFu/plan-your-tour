@@ -2,7 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import useAuth from '../hooks/useAuth';
 import UserPanelDelete from '../UserPanelDelete/UserPanelDelete';
-import { clearThePack, getStoredPack, removeFromDb } from '../utilities/fakedb';
+import { clearThePack, getStoredPack, removeFromDb } from '../utilities/fakedb'; 
 
 const UserPanel = () => {
 

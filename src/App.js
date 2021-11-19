@@ -19,6 +19,7 @@ import BookPackage from './Pages/BookPacakge/BookPackage';
 import AdminPanel from './Pages/AdminPanel/AdminPanel';
 import UserPanel from './UserPanel/UserPanel';
 import AuthorizeAdmin from './Pages/Admin/AuthorizeAdmin';
+import Register from './Pages/LoginAndRegister/Register/Register';
 
 
 function App() {
@@ -63,6 +64,9 @@ function App() {
             </PrivateRoute>
             <Route path='/manageUser'>
               <ManageOrder></ManageOrder>
+            </Route>
+            <Route path='/register'>
+              <Register></Register>
             </Route>
             <PrivateRoute path='/package/:packageId'>
               <BookPackage></BookPackage>

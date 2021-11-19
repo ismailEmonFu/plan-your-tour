@@ -13,7 +13,7 @@ const AddLocation = () => {
     const onSubmit = (data) => {
         console.log(data);
 
-        axios.post('http://localhost:5000/location', data)
+        axios.post('https://damp-earth-59807.herokuapp.com/location', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');

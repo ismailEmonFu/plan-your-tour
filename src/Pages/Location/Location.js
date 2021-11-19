@@ -7,7 +7,7 @@ const Location = () => {
     const [locations, setLocations] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/locations')
+        fetch('https://damp-earth-59807.herokuapp.com/locations')
             .then(res => res.json())
             .then(data => setLocations(data))
     }, [])
